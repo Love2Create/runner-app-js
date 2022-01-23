@@ -1,0 +1,162 @@
+html {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 10px;
+  font-family: 'Source Sans Pro', sans-serif;
+  background-color: #2d3740;
+}
+
+html main {
+  width: 80%;
+  color: #e0e0e0;
+  background-color: #1a2025;
+  padding: 3rem 4rem 3rem 4rem;
+  margin: 0 auto;
+}
+
+html main .logo {
+  text-align: center;
+}
+
+html main h1, html main h2 {
+  text-align: center;
+}
+
+html main form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+html main form label {
+  font-size: 1.6rem;
+}
+
+html main form input[type="number"] {
+  font-family: inherit;
+  background-color: #e6e1e1;
+  width: 80%;
+  margin: 1rem 0;
+  border: none;
+  font-size: 1.3rem;
+  text-align: center;
+  padding: 0.8rem 0;
+  border-radius: 0.25rem;
+}
+
+html main form button {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 0;
+  background-color: #5bab5b;
+  color: white;
+  font-weight: bolder;
+  margin: 0.5rem 0 1rem 0;
+}
+
+html main #entries-wrapper {
+  text-align: center;
+  padding: 1rem 0;
+}
+
+html main #entries-wrapper h1 {
+  font-size: 1.5rem;
+}
+
+html main #entries-wrapper ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0;
+  list-style: none;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+html main #entries-wrapper li {
+  border: 1px solid #e0e0e0;
+  padding: 1.5rem 1rem;
+  font-size: 1.5rem;
+}
+
+html main .data {
+  font-size: 1.4rem;
+}
+
+html main .data .space-between {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #0e1214;
+  margin: 1rem 0;
+  padding: 0.25rem 2rem;
+}
+
+html main .progress {
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+html main .progress h2 {
+  font-size: 1.8rem;
+  font-weight: lighter;
+}
+
+html main .progress h2 #target {
+  width: 50px;
+  padding: 0.25rem;
+}
+
+html main .progress .progress-circle-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+html main .progress .progress-circle-wrapper #progress-circle {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: conic-gradient(green 0%, gray 0 50%);
+}
+
+html main .progress .progress-circle-wrapper #progress-circle #circle-mask {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  background-color: #2d3740;
+}
+/*# sourceMappingURL=app.css.map */

@@ -1,0 +1,121 @@
+
+$text-color-light: rgb(224, 224, 224);
+$background-color-dark: #1a2025;
+$background-color-darker: #0e1214;
+$canvas-color-dark: #2d3740;
+
+html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: $canvas-color-dark;
+    main{
+        width: 80%;
+        color: $text-color-light;
+        background-color: $background-color-dark;
+        padding: 3rem 4rem 3rem 4rem;
+        margin: 0 auto;
+        .logo{
+            text-align: center;
+        }
+        h1, h2{
+            text-align: center;
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            align-items: center;
+            label{
+                font-size: 1.6rem;
+            }
+            input[type="number"]{
+                font-family: inherit;
+                background-color:rgb(230, 225, 225);
+                width: 80%;
+                margin: 1rem 0;
+                border: none;
+                font-size: 1.3rem;
+                text-align: center;
+                padding: 0.8rem 0;
+                border-radius: 0.25rem;
+            }
+            button{
+                width: 50px;
+                height: 50px;
+                border-radius: 50%;
+                border: 0;
+                background-color: rgb(91, 171, 91);
+                color: white;
+                font-weight: bolder;
+                margin: 0.5rem 0 1rem 0;
+            }    
+        }
+        #entries-wrapper{
+            text-align: center;
+            padding: 1rem 0;
+            h1{
+                font-size: 1.5rem;
+            }
+            ul{
+                display: flex;
+                padding: 0;
+                list-style: none;
+                justify-content: space-evenly;
+            }
+            li{
+                border: 1px solid $text-color-light;
+                padding: 1.5rem 1rem;
+                font-size: 1.5rem;
+            }
+        }
+        .data{
+            font-size: 1.4rem;
+            .space-between{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                background-color: $background-color-darker;
+                margin: 1rem 0;
+                padding: 0.25rem 2rem;
+            }
+        }
+        .progress{
+            text-align: center;
+            padding-bottom: 1rem;
+            h2{
+                font-size: 1.8rem;
+                font-weight: lighter;
+                #target{
+                    width: 50px;
+                    padding: 0.25rem;
+                }
+            }
+            .progress-circle-wrapper{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                #progress-circle{
+                    width: 250px;
+                    height: 250px;
+                    border-radius: 50%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background: conic-gradient(green 0%, gray 0 50%);
+                    #circle-mask{
+                        width: 220px;
+                        height: 220px;
+                        border-radius: 50%;
+                        background-color: $canvas-color-dark;
+                    }
+                }
+
+            }
+        }
+
+
+    }
+}
